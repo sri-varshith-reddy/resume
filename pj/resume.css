@@ -1,0 +1,189 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #f0f0f0;
+}
+
+.main-content {
+    width: 70%;
+    margin: 2rem auto;
+    display: grid;
+    grid-template-columns: 2fr 5fr;
+    background-color: #fff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.left-section {
+    background-color: #00324A;
+    padding: 2rem 3rem;
+}
+
+.right-section {
+    padding: 2rem 3rem;
+}
+
+.profile img {
+    width: 50%;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    border: 6px solid white;
+}
+
+.name {
+    font-size: 2.5rem;
+    color: #00324A;
+    text-align: center;
+}
+
+.position {
+    font-size: 1.5rem;
+    color: #2D9CDB;
+    text-align: center;
+    margin-top: 0.5rem;
+}
+
+.underline {
+    width: 50px;
+    height: 2px;
+    background-color: #2D9CDB;
+    margin: 10px auto;
+}
+
+.main-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid white;
+}
+
+.right-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #00324A;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #2D9CDB;
+}
+
+.projects-section {
+    background-color: black;
+    padding: 1rem;
+    color: white;
+}
+
+.projects .tl-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 0.25rem;
+}
+
+.projects .para {
+    font-size: 1.2rem;
+    font-weight: normal;
+    color: #ffffff;
+    margin-bottom: 0.5rem;
+}
+
+.divider {
+    border: 1px solid #2D9CDB;
+    margin: 1rem 0;
+}
+
+.tl-title, .tl-title-2 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 0.5rem;
+}
+
+.para {
+    font-size: 1rem;
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.skill-title, .education p, .languages-section ul li {
+    font-size: 1rem;
+    color: white;
+}
+
+.contact-info ul li {
+    font-size: 1rem;
+    color: white;
+}
+
+.contact-info ul li a {
+    color: white;
+}
+
+.projects {
+    margin-top: 2rem;
+}
+
+.project-item {
+    background-color: #f8f9fa;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-radius: 8px;
+}
+
+.project-title {
+    font-size: 1.5rem;
+    color: #00324A;
+}
+
+.project-date {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 0.5rem;
+}
+
+.project-description ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.project-description ul li {
+    font-size: 1rem;
+    color: #00324A;
+}
+
+@media screen and (max-width: 768px) {
+    .main-content { 
+        grid-template-columns: 1fr; 
+    }
+    .left-section, .right-section { 
+        padding: 1.5rem; 
+    }
+    .name { 
+        font-size: 2rem; 
+    }
+    .position { 
+        font-size: 1.3rem; 
+    }
+    .profile img { 
+        width: 60%; 
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .main-content { 
+        width: 90%; 
+    }
+    .name { 
+        font-size: 1.8rem; 
+    }
+    .position { 
+        font-size: 1.2rem; 
+    }
+    .profile img { 
+        width: 50%; 
+    }
+}
